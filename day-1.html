@@ -1,0 +1,92 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+			font-family: Courier New,sans-serif;
+			font-size: 25px;
+			background-color: lightgray;
+		}
+		input[type=text], input[type=password], textarea {
+			width: 30%;
+			padding: 25px;
+			margin: 15px 0 22px 0;
+			display: inline-block;
+			border: none;
+			background: #f1f1f1;
+		}
+		
+		input[type=text]:focus, input[type=password]:focus {
+			background-color: orange;
+			outline: nones;
+		}
+		div {
+            padding: 20px 0;
+         }
+		hr {
+			border: 2px solid #f1f1f1;
+			margin-bottom: 35px;
+		}
+		.register {
+			background-color: #4CAF50;
+			color: white;
+			padding: 16px 20px;
+			margin: 8px 0;
+			border: none;
+			cursor: pointer;
+			width: 100%;
+			opacity: 1;
+			}
+		.register:hover {
+			opacity: 1;
+		}
+	}
+</style>
+</head>
+<body>
+<form>
+  <div class="container">
+  <center>  <h1>Rahil's Registration Form for Vaccine</h1> </center>
+  <hr>
+  <label> Firstname </label> 
+<input type="text" name="firstname" placeholder= "Firstname" size="35" required /> 
+<br>
+<label> Lastname: </label>  
+<input type="text" name="lastname" placeholder="Lastname" size="35" required />
+<br>
+<div>
+<label> 
+Gender :
+</label><br>
+<input type="radio" value="Male" name="gender" checked > Male 
+<input type="radio" value="Female" name="gender"> Female 
+<input type="radio" value="Other" name="gender"> Other
+
+</div>
+<br>
+<label> 
+Phone :
+</label>
+<input type="text" name="country code" placeholder="Country Code"  value="+91" size="2"/> 
+<input type="text" name="phone" placeholder="phone no." size="10" required/>
+ <br>
+ <div>
+Current Address :
+    <input type="text" placeholder="Current Address" required />
+</div>
+<div>
+<label> 
+Vaccines Available:
+</label> 
+
+<select>
+<option value="COVISHEILD">COVISHEILD</option>
+<option value="COVAXIN">COVAXIN</option>
+<option value="SPUTNIK">SPUTNIK</option>
+<option value="PFIZER">PFIZER</option>
+</select>
+</div>
+<br>
+<input type="Submit" name="Submit"/>
+  </div>
+</form>
