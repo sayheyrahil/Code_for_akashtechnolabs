@@ -1,1 +1,0 @@
-# Code_for_akashtechnolabs
